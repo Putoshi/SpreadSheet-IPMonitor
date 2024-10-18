@@ -75,7 +75,7 @@ def update_spreadsheet(ip_address, current_time, sender_id):
     else:
         # 新しい行を追加
         body = {
-            'values': [[sender_id, ip_address, current_time]]
+            'values': [[sender_id, current_time, ip_address]]
         }
         service.spreadsheets().values().append(
             spreadsheetId=SPREADSHEET_ID,
