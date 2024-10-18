@@ -21,7 +21,7 @@ conda env create -f environment.yml
 
 or
 
-pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client requests
+pip install python-dotenv google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client requests
 
 ```
 
